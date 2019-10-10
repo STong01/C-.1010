@@ -1,0 +1,17 @@
+﻿生成启动时间为 2019/10/10 18:45:06。
+     1>项目“E:\编程作业\S\C+.1010\C+.1010\C+.1010.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\S文件\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt C+.1010.cpp
+         C+.1010.cpp
+     1>e:\编程作业\s\c+.1010\c+.1010\c+.1010.cpp(58): warning C4172: 返回局部变量或临时变量的地址
+                 e:\编程作业\s\c+.1010\c+.1010\c+.1010.cpp(42): 编译类 模板 成员函数“int &MyQueue<int>::front(void)”时
+                 e:\编程作业\s\c+.1010\c+.1010\c+.1010.cpp(74): 参见对正在编译的函数 模板 实例化“int &MyQueue<int>::front(void)”的引用
+                 e:\编程作业\s\c+.1010\c+.1010\c+.1010.cpp(68): 参见对正在编译的类 模板 实例化“MyQueue<int>”的引用
+       Link:
+         E:\S文件\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\编程作业\S\C+.1010\Debug\C+.1010.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\编程作业\S\C+.1010\Debug\C+.1010.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\编程作业\S\C+.1010\Debug\C+.1010.lib" /MACHINE:X86 Debug\C+.1010.obj
+         C+.1010.vcxproj -> E:\编程作业\S\C+.1010\Debug\C+.1010.exe
+     1>已完成生成项目“E:\编程作业\S\C+.1010\C+.1010\C+.1010.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.61
